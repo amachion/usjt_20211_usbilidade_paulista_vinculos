@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'vinculos';
+
+  nome = "Jose";
+  idade = 20;
+
+  lancarDados() {
+    return Math.floor(Math.random() * 6 + 1);
+  }
+
 }
